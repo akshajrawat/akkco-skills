@@ -10,6 +10,7 @@ Curated custom agent skills for OpenAI Codex and Google Antigravity.
 - **`akkco-review`**: Code and test review against requirements, architecture, and regression safety.
 - **`akkco-bruteforce`**: Coordinates planning, implementation, and review for complex engineering tasks.
 - **`akkco-rsi`**: Recursive Self-Implementation cycle for complex and high-risk tasks.
+- **`akkco-spoonfeed`**: Simple, high-level explanation of recently completed work without technical jargon.
 - **`buddy`**: Skill dispatcher and coordinator.
 
 ## Quick Start: Sync & Install
