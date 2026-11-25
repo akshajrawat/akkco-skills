@@ -27,7 +27,7 @@ Construct a detailed, actionable plan containing:
 
 ## 3. Independent Review & Refinement
 
-- **Reviewer Session**: Start a completely fresh independent reviewer using **Gemini 3.8 Flash** (Antigravity model `gemini-3.8-flash`, `thinking_level=high`) or the currently active model if unavailable with fresh context.
+- **Reviewer Session**: Start a completely fresh independent reviewer using **Gemini 4 Hydrogen** (Antigravity model `gemini-4-hydrogen`, `thinking_level=high`) or the currently active model if unavailable with fresh context.
 - The independent plan reviewer must remain read-only.
 - **Reviewer Inputs**: Provide the reviewer with the original user prompt and proposed plan. Do not share intermediate reasoning.
 
@@ -37,5 +37,4 @@ Include material assumptions and constraints in the plan so the reviewer can cha
 
 ## Completion
 
-Return the refined plan, material assumptions, unresolved
-requirements and planning blockers.
+Return the refined plan, material assumptions, unresolved requirements and planning blockers.

@@ -119,9 +119,9 @@ cmd_status() {
 
     echo -e "${BOLD}Skill Status across Agents:${RESET}"
     echo "Source: ${SKILLS_SRC}"
-    echo "------------------------------------------------------------"
-    printf "%-18s | %-12s | %-12s | %-12s\n" "Skill" "Codex" "Antigravity" ".agents"
-    echo "------------------------------------------------------------"
+    echo "------------------------------------------------------------------"
+    printf "%-24s | %-12s | %-12s | %-12s\n" "Skill" "Codex" "Antigravity" ".agents"
+    echo "------------------------------------------------------------------"
 
     for skill in "${skills[@]}"; do
         local status_codex="MISSING"
@@ -146,9 +146,9 @@ cmd_status() {
             status_agents="COPIED"
         fi
 
-        printf "%-18s | %-12s | %-12s | %-12s\n" "${skill}" "${status_codex}" "${status_gemini}" "${status_agents}"
+        printf "%-24s | %-12s | %-12s | %-12s\n" "${skill}" "${status_codex}" "${status_gemini}" "${status_agents}"
     done
-    echo "------------------------------------------------------------"
+    echo "------------------------------------------------------------------"
 }
 
 # ------------------------------------------------------------------------------

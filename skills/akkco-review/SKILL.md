@@ -29,6 +29,6 @@ Independently inspect the changes for correctness, requirement coverage, regress
 
 ## Model Availability & Execution Notes
 
-- Preferred reviewer model: **Gemini 3.8 Flash** through Antigravity. Select `gemini-3.8-flash` and set `thinking_level` to `high`.
+- Preferred reviewer model: **Gemini 4 Hydrogen** through Antigravity. Select `gemini-4-hydrogen` and set `thinking_level` to `high`.
 - If the preferred model is unavailable, use the currently active model.
 - Report verification limitations and execution blockers.
